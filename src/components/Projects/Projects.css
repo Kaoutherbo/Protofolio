@@ -17,7 +17,7 @@
   animation:move 2s infinite;
 }
   
-.Image>img {
+.Image img {
    border-radius: 15%;
    padding: 2rem;
   }
@@ -40,4 +40,20 @@ p{
     margin-left: 14rem;
     align-items: center;
     text-align: center;
+  }
+  @media (max-width:687px) {
+    .hero-img{
+      width:95%;
+      height: 70vh;
+      left: 10px;
+      border-radius: 20px;
+      margin-top: 0rem;
+      margin-bottom: 10rem;
+       display: flex;
+      flex-direction: column;
+      column-gap: 1rem;
+    }
+    .heading a i{
+     margin-left: 4rem;
+    }
   }

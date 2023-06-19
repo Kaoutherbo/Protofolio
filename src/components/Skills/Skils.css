@@ -74,3 +74,32 @@ margin-bottom: 2rem;
     transform: scale(1.1);
     box-shadow: 2px 1px 2px 1px blueviolet;
 }
+@media (max-width:687px) {
+    .skils{
+        display: flex;
+        flex-direction: column;
+    }
+    .first,.second,.third{
+        width: 300px;
+        margin-left: 3rem;
+    }
+    img{
+        width: 88%;
+    }
+ .services p{
+        text-align: center;
+        width: 90%;
+    }
+    .certeficates {
+        flex-direction: column;
+       margin-right: 2rem;
+    }
+.Tools,.Tools2{
+    flex-direction: column;
+    gap: 4rem;
+}
+.Tools img,.Tools2 img{
+    width: 90%;
+}
+
+}

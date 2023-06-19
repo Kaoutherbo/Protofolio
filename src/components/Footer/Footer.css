@@ -33,4 +33,19 @@ b{
     transition: ease 0.3s;
     border-top: 3px solid blueviolet;
   }
+  @media (max-width:687px) {
+    .footer{
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+       margin-left: 10rem;
+       margin-right: 10rem;
+    }
+    footer{
+        height:fit-content;
+    }
+    footer p{ 
+        margin-left:0;
+    }
+       
+  }
  

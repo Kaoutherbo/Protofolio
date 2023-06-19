@@ -60,3 +60,22 @@ color: #7f00ff;
     padding: 2rem;
     padding-left: 4rem;
 }
+@media (max-width:687px) {
+    .card{
+        width:95%;
+        height: 80vh;
+        left: 10px;
+        border-radius: 20px;
+        margin-top: -2rem;
+        margin-bottom: 10rem;
+    }
+ .container{
+    flex-direction: column;
+ }
+.container img{
+    margin-top: 7rem;
+    margin-left: 2.5rem;
+    width: 75%;
+}
+    
+}
