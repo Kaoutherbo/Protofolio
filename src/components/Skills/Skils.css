@@ -1,0 +1,76 @@
+.services{
+    width:100%;
+    height: 100%;
+    top: 5rem;
+    left: 0px;
+    border-radius: 20px;
+    position: relative;
+    background-color:transparent;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    column-gap: 3rem;
+}
+.skils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 12rem;
+}
+.first,.second,.third{
+    height: 490px;
+    width: 260px;
+    background-color:rgb(17,24,39);
+    object-fit: fill;
+    border-radius: 20px;
+}
+.first:hover,.second:hover,.third:hover{
+    box-shadow: 2px 3px 2px 3px blueviolet;
+    transition: .3s;
+cursor: pointer;
+transform: scale(1.1);
+}
+img{
+    position: relative;
+    top: 0.6rem;
+    right: -1.4rem;
+    margin: 0;
+    border-radius: 10%;
+}
+h4{
+    color: blueviolet;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+p{
+    margin-bottom:-1rem;
+}
+.certeficates {
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+margin-bottom: 2rem;
+}
+.certeficates img{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.certeficates img:hover{
+    box-shadow: 2px 1px 2px 1px blueviolet;
+    transition: .3s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.Tools,.Tools2{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Tools img:hover,.Tools2 img:hover{
+    transition: .3s;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 1px 2px 1px blueviolet;
+}

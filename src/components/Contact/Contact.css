@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;1,900&display=swap');
+.Contact{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  background-color: black;
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 10rem;
+  animation:move 2s infinite;
+}
+@keyframes move {
+  50%{
+      box-shadow: 5px 5px 5px blueviolet;
+  }
+}
+.Contact h4{
+ display: flex;
+ flex-direction: row;
+
+}
+
+.Contact .left .phone p{
+  padding-right: 16rem;
+  margin: 0;
+}
+.Contact .left .location p{
+  padding-right:17rem;
+  margin: 0;
+}
+.Contact .left .email p{
+  padding-right: 9.5rem;
+  margin: 0;
+}
+.Contact .left .location a{
+  padding-left: 7rem;
+  display: inline;
+}
+.Contact .left .phone a {
+  padding-left: 7rem;
+}
+.Contact .left .email a {
+  padding-left: 7.4rem;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  width: 300px;
+}
+
+form  label {
+  display: block;
+  color:antiquewhite;
+}
+
+#name,#email{
+  padding: 8px 25px;
+  border: 1px solid #ebe7e7;
+  border-radius: 20px;
+  width: 120%;
+  height:6vh;
+}
+#subject{
+  border:none;
+  border-radius: 15px;
+  width: 120%;
+  height:25vh;
+  padding: 0;
+  margin: 0;
+}
+form  input:focus {
+  outline: none;
+  border-color: #efecec;
+}
+#subject::placeholder{
+  padding: 1rem;
+  color: darkgrey;
+  font-family: 'Outfit',sans-serif;  
+}
+form h4{
+  padding-bottom: 0.5rem;
+  font-size: 20px;
+  padding-top: 0;
+}
+.btn{
+  margin-top: 0.6rem;
+  margin-left: 2rem;
+  justify-content: end;
+  padding: 15px 50px;
+  width: 50%;
+  height:3rem;
+}
