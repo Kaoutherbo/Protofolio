@@ -73,7 +73,7 @@ const ParticlesComponent = () => {
                         type: "circle",
                     },
                     size: {
-                        value: { min: 3, max: 3 },
+                        value: { min: 5, max: 8 },
                     },
                 },
                 detectRetina: true,
