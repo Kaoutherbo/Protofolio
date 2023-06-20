@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.69e8fd55.css",
+    "main.js": "/react-gh-pages/static/js/main.728d6e40.js",
+    "static/js/787.c1112931.chunk.js": "/react-gh-pages/static/js/787.c1112931.chunk.js",
+    "static/media/projects.PNG": "/react-gh-pages/static/media/projects.766b80abfcda4f9a32de.PNG",
+    "static/media/logo.png": "/react-gh-pages/static/media/logo.f6b89d232c9bc9f828e5.png",
+    "static/media/profile.jpg": "/react-gh-pages/static/media/profile.cd107bfbf9c8ac86a701.jpg",
+    "static/media/NodeJS.jpg": "/react-gh-pages/static/media/NodeJS.a8201b439391a4bfbc0c.jpg",
+    "static/media/Js.jpeg": "/react-gh-pages/static/media/Js.3d3d37afc9c7c3fed46a.jpeg",
+    "static/media/Html.jpeg": "/react-gh-pages/static/media/Html.1d17f74e0da081023551.jpeg",
+    "static/media/Css.jpeg": "/react-gh-pages/static/media/Css.8968107ed48b76a01aae.jpeg",
+    "static/media/C.jpeg": "/react-gh-pages/static/media/C.aa5b7f21e736ae4bd1d0.jpeg",
+    "static/media/logo_dart.png": "/react-gh-pages/static/media/logo_dart.17c375e75e93958b549a.png",
+    "static/media/CSS3_logo.svg.png": "/react-gh-pages/static/media/CSS3_logo.svg.00aabb580fbe10db4123.png",
+    "static/media/git.webp": "/react-gh-pages/static/media/git.e29c815ab3864582267c.webp",
+    "static/media/desktop.webp": "/react-gh-pages/static/media/desktop.ee6396be951d11d0f9de.webp",
+    "static/media/flutter.png": "/react-gh-pages/static/media/flutter.8047bd230962ec77e558.png",
+    "static/media/css profile.webp": "/react-gh-pages/static/media/css profile.883947667d59983e0805.webp",
+    "index.html": "/react-gh-pages/index.html",
+    "main.69e8fd55.css.map": "/react-gh-pages/static/css/main.69e8fd55.css.map",
+    "main.728d6e40.js.map": "/react-gh-pages/static/js/main.728d6e40.js.map",
+    "787.c1112931.chunk.js.map": "/react-gh-pages/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69e8fd55.css",
+    "static/js/main.728d6e40.js"
+  ]
+}
